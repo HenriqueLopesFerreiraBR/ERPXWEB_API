@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -15,9 +15,14 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mssql": "^11.0.1",
+    "mysql2": "^3.11.3",
     "next": "^14.2.13",
     "nodemon": "^3.1.6",
     "sequelize": "^6.37.3",
     "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
